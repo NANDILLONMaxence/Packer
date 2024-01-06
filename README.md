@@ -3,26 +3,26 @@
 Suivez ces étapes simples pour installer Packer sur votre système Windows :
 
 1. **Téléchargement de Packer :**
-   - Rendez-vous sur le site officiel de Packer : [Link Packer](https://www.packer.io/downloads)
+   - Rendez-vous sur le site officiel de Packer : [Lien Packer](https://www.packer.io/downloads)
    - Téléchargez le fichier exécutable : AMD64 ou 386
 
 2. **Placement du fichier exécutable :**
-	Une fois le téléchargement terminé, aller dans votre répertoire "Programmes", créé un nouveau dossier ou vous allez placer l'exécutable
+   Une fois le téléchargement terminé, aller dans votre répertoire `Programmes`, créé un nouveau dossier ou vous allez placer l'exécutable
 	
-   - Une fois le téléchargement terminé, accédez à votre répertoire "Programmes".
+   - Une fois le téléchargement terminé, accédez à votre répertoire `Programmes`.
    - Créez un nouveau dossier où vous placerez l'exécutable Packer.
 
-3. **Ajout au PATH :**
-	Ajoutez le chemin du répertoire où Packer sera installé à votre variable d'environnement PATH. Cela permettra d'accéder à Packer de n'importe où dans votre ligne de commande.
+4. **Ajout au PATH :**
+   Ajoutez le chemin du répertoire où Packer sera installé à votre variable d'environnement PATH. Cela permettra d'accéder à Packer de n'importe où dans votre ligne de commande.
 	
-   - Copiez le lien vers le dossier où se situe votre exécutable Packer (par exemple, "C:\Program Files\Packer").
-   - Dans la barre de recherche Windows, tapez "Modifier les variables d'environnement pour votre compte".
-   - Double-cliquez sur "Path", puis cliquez sur "Nouveau" et ajoutez le chemin vers le dossier Packer que vous avez copié précédemment.
+   - Copiez le lien vers le dossier où se situe votre exécutable Packer (par exemple, `C:\Program Files\Packer`).
+   - Dans la barre de recherche Windows, tapez `Modifier les variables d'environnement pour votre compte`.
+   - Double-cliquez sur `Path`, puis cliquez sur "Nouveau" et ajoutez le chemin vers le dossier Packer que vous avez copié précédemment.
 
-5. **Exécution de Packer :**
+6. **Exécution de Packer :**
    - Terminez le processus d'installation en exécutant Packer.
 
-6. **Vérification de l'installation :**
+7. **Vérification de l'installation :**
    - Ouvrez une nouvelle fenêtre de terminal (cmd) et tapez la commande suivante : `packer --version`
    - Vous devriez voir la version de Packer que vous venez d'installer s'afficher, confirmant ainsi que Packer est maintenant installé sur votre système Windows.
 
