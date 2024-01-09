@@ -35,7 +35,7 @@ Suivez ces étapes simples pour installer Packer sur votre système Linux :
 
 
 1. **Téléchargement de Packer :**
-   - Rendez-vous sur le site officiel de Packer : [Link Packer](https://www.packer.io/downloads)
+   - Rendez-vous sur le site officiel de Packer : [Lien Packer](https://www.packer.io/downloads)
    - Téléchargez le fichier exécutable : AMD64 ou 386
    ou 
    - Via Packege manager:
